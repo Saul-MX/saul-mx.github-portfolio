@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" maximun-scale="1">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+</head>
+<body>
+
+    <!-- Layout Principal -->
+    <div class="layout">
+
+        <!-- Barra lateral -->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!-- Informacion general -->
+                <div class="user-info__general">
+                    <div class="user-info__container-img">
+                        <img src="assets/img/foto_perfil.jpg" alt="foto de perfil" class="user-info__img">
+                    </div>
+
+                    <h2 class="user-info__name">Saul Dominguez</h2>
+                    <h4 class="user-info__job">Desarrollador web</h4>
+                </div>
+
+                <!-- Menu de navegacion -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class='bx bx-home menu__icon'></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="about.html" class="menu__link">
+                                <i class='bx bx-user menu__icon'></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link">
+                                <i class='bx bxs-graduation menu__icon' ></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class='bx bxs-briefcase menu__icon'></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class='bx bxs-book menu__icon'></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link menu__link--active">
+                                <i class='bx bxs-envelope menu__icon' ></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- Links a redes sociales -->
+                <div class="user-info__links">
+
+                    <ul class="links__social">
+                        
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class='social__icon bx bxl-youtube' ></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class='social__icon bx bxl-instagram-alt' ></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/saul-dominguez-desarrollo-web/" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Boton de CV -->
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descargar CV</a>
+                </div>
+
+                <!-- Pie de pagina  -->
+                <footer class="user-info__footer">
+                    &copy; 2023 Saul Dominguez
+                </footer>
+            </section>
+
+        </aside>
+
+        <div class="layout__menu-toggle">
+            <i class='bx bx-menu menu-toggle__icon' ></i>
+            <i class='bx bx-menu-alt-right menu-toggle__icon'></i>
+        </div>
+
+        <!-- Contenido principal -->
+        <main class="layout__content">
+
+            <section class="content__pages content__contact">
+                <!-- Cambia contenido cada pagina -->
+
+                <header class="contact__header">
+                    <h1 class="contact__title">Contacto</h1>
+                </header>
+
+                <div class="contact__container">
+
+                    <section class="contact__info">
+
+                        <div class="contact__data">
+                            <i class='contact__icon bx bxs-location-plus'></i>
+                            <h2 class="contact__subtitle">Mexico</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class='contact__icon bx bxs-location-plus'></i>
+                            <h2 class="contact__subtitle">22-2301-8506</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class='contact__icon bx bxs-location-plus'></i>
+                            <h2 class="contact__subtitle">saul.domingueztorres.21@gmail.com</h2>
+                        </div>
+
+                        <div class="contact__data">
+                            <i class='contact__icon bx bxs-location-plus'></i>
+                            <h2 class="contact__subtitle">Desarrollador Freelance</h2>
+                        </div>
+
+                    </section>
+
+                    <section class="contact__form-box">
+
+                        <div class="contact__map" id="load-iframe-map">   
+                            <span class="loader"></span>
+                        </div>
+
+                            <header class="contact__form-header">
+                                <h3 class="form-header__subtitle">Como Puedo <span class="subtitle__color">Ayudarte</span></h3>
+                            </header>
+
+                            <form action="" class="contact__form">
+                                <div class="form__container">
+
+                                    <section class="form__left">
+                                        <div class="form__group">
+                                            <input type="text" class="form__input" name="name" required placeholder="Nombre...">
+                                            <label for="name" class="form__label">Nombre</label>
+                                        </div>
+
+                                        <div class="form__group">
+                                            <input type="email" class="form__input" name="email" required placeholder="ejemplo@algo.com">
+                                            <label for="name" class="form__label">Email</label>
+                                        </div>
+
+                                        <div class="form__group form__group--textarea">
+                                            <input type="text" class="form__input" name="subject" required placeholder="Asunto...">
+                                            <label for="subject" class="form__label">Asunto</label>
+
+                                            <input type="submit" class="form__btn" value="Enviar mensaje"/>
+
+                                        </div>
+                                    </section>
+
+                                    <section class="form__right">
+
+                                        <textarea class="form__input form__input--textarea" name="message" required placeholder="Mensaje"></textarea>
+                                        <label for="message" class="form__label">
+                                        </label>
+                                        
+                                    </section>
+
+                                </div>
+
+                            </form>
+
+                    </section>
+
+                </div>
+
+                </section>
+
+            </section>
+
+        </main>
+    </div>
+
+
+</body>
+</html>

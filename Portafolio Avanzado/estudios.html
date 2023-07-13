@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" maximun-scale="1">
+    <title>Estudios</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/menu.js" defer></script> 
+</head>
+<body>
+
+    <!-- Layout Principal -->
+    <div class="layout">
+
+        <!-- Barra lateral -->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!-- Informacion general -->
+                <div class="user-info__general">
+                    <div class="user-info__container-img">
+                        <img src="assets/img/foto_perfil.jpg" alt="foto de perfil" class="user-info__img">
+                    </div>
+
+                    <h2 class="user-info__name">Saul Dominguez</h2>
+                    <h4 class="user-info__job">Desarrollador web</h4>
+                </div>
+
+                <!-- Menu de navegacion -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class='bx bx-home menu__icon'></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="about.html" class="menu__link">
+                                <i class='bx bx-user menu__icon'></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link menu__link--active">
+                                <i class='bx bxs-graduation menu__icon' ></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class='bx bxs-briefcase menu__icon'></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class='bx bxs-book menu__icon'></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class='bx bxs-envelope menu__icon' ></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!-- Links a redes sociales -->
+                <div class="user-info__links">
+
+                    <ul class="links__social">
+                        
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class='social__icon bx bxl-youtube' ></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class='social__icon bx bxl-instagram-alt' ></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/saul-dominguez-desarrollo-web/" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Boton de CV -->
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descargar CV</a>
+                </div>
+
+                <!-- Pie de pagina  -->
+                <footer class="user-info__footer">
+                    &copy; 2023 Saul Dominguez
+                </footer>
+            </section>
+
+        </aside>
+
+        <div class="layout__menu-toggle">
+            <i class='bx bx-menu menu-toggle__icon' ></i>
+            <i class='bx bx-menu-alt-right menu-toggle__icon'></i>
+        </div>
+
+        <!-- Contenido principal -->
+        <main class="layout__content">
+
+            <section class="content__pages content__resume">
+                <!-- Cambia contenido cada pagina -->
+
+                <header class="resume__header">
+                    <h1 class="resume__title">Curriculum</h1>
+                </header>
+
+                <div class="resume__container">
+                    
+                    <section class="resume__left">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Formacion</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__items">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023</h4>
+                                    <span class="timeline__company">Curso de ORACLE</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollo Front-end con React</h3>
+                                    <p class="timeline__text">Fue uno de los primeros cursos en donde me exiguian cierto tiempo para terminar el curso</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timelines__items">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023</h4>
+                                    <span class="timeline__company">Coder Hause</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollo Web</h3>
+                                    <p class="timeline__text">Aqui pude aprender y manejar mejor el CSS junto con librerias como SASS.</p>
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Experiencia</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__items">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023</h4>
+                                    <span class="timeline__company">SIDETEC</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollo web</h3>
+                                    <p class="timeline__text">Aqui pude hacer mi primera pagina, la cual si me tome muy en serio y me gusto la Experiencia</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timelines__items">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2021</h4>
+                                    <span class="timeline__company">Calculadora</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollo web</h3>
+                                    <p class="timeline__text">Mi primer proyecto que hice en cuando aprendi Desarrollo Web y JS.</p>
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </section>
+
+                    <section class="resume__right">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">Blandas</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Manejo de estres</h4>
+                                <span class="skills__number">96%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p1"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Creatividad</h4>
+                                <span class="skills__number">97%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p2"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Productividad</h4>
+                                <span class="skills__number">94%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p3"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Adaptabilidad</h4>
+                                <span class="skills__number">96%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p4"></div>
+                            </div>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades <span class="subtitle__color">personales</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Flexibilidad</h4>
+                                <span class="skills__number">97%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p5"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Puntualidad</h4>
+                                <span class="skills__number">95%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p6"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Capacidad de aprendizaje</h4>
+                                <span class="skills__number">96%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p7"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Trabajo en equipo</h4>
+                                <span class="skills__number">100%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p8"></div>
+                            </div>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Area de conocimientos</h2>
+                        </header>
+
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledges__option">Programacion JS</li>
+                                <li class="knowledges__option">Programacion Python</li>
+                                <li class="knowledges__option">Comunicacion</li>
+                                <li class="knowledges__option">Desarrollo Web</li>
+                                <li class="knowledges__option">Programacion React JS</li>
+                            </ul>
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <section class="resume__certificates">
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtitle">Certificados</h2>
+                    </header>
+
+                    <section class="certificates__container">
+                        <article class="certificate__item">
+                            <div class="certificate__logo">
+                                <img src="assets/img/Certificados/HTML & CSS_frente.png" alt="" class="certificate__img">
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">HTML & CSS</h4>
+                                <span class="certificate__name">ORACLE</span>
+                                <span class="certificate__date">01 de Julio de 2023</span>
+                            </div>
+
+                        </article>
+
+                        <article class="certificate__item">
+                            <div class="certificate__logo">
+                                <img src="assets/img/Certificados/HTML & CSS_atras.png" alt="" class="certificate__img">
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">HTML & CSS</h4>
+                                <span class="certificate__name">ORACLE</span>
+                                <span class="certificate__date">01 de Julio de 2023</span>
+                                <span class="certificate__info">65 hrs y 361 actividades</span>
+                            </div>
+
+                        </article>
+
+                        <article class="certificate__item">
+                            <div class="certificate__logo">
+                                <img src="assets/img/Certificados/Principiante_en_Programacion_frente.png" alt="" class="certificate__img">
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Principiante en Programación</h4>
+                                <span class="certificate__name">ORACLE</span>
+                                <span class="certificate__date">14 de Abril de 2023</span>
+                            </div>
+
+                        </article>
+
+                        <article class="certificate__item">
+                            <div class="certificate__logo">
+                                <img src="assets/img/Certificados/Principiante_en_Programacion_atras.png" alt="" class="certificate__img">
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Principiante en Programación</h4>
+                                <span class="certificate__name">ORACLE</span>
+                                <span class="certificate__date">14 de Abril de 2023</span>
+                                <span class="certificate__info">75 hrs y 421 actividades</span>
+                            </div>
+
+                        </article>
+
+                        <article class="certificate__item">
+                            <div class="certificate__logo">
+                                <img src="assets/img/Certificados/Desarrollo_Personal_frente.png" alt="" class="certificate__img">
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Desarrollo Personal</h4>
+                                <span class="certificate__name">ORACLE</span>
+                                <span class="certificate__date">03 de Abril de 2023</span>
+                            </div>
+
+                        </article>
+
+                        <article class="certificate__item">
+                            <div class="certificate__logo">
+                                <img src="assets/img/Certificados/Desarrollo_Personal_atras.png" alt="" class="certificate__img">
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Desarrollo Personal</h4>
+                                <span class="certificate__name">ORACLE</span>
+                                <span class="certificate__date">03 de Abril de 2023</span>
+                                <span class="certificate__info">35 hrs y 171 actividades</span>
+                            </div>
+
+                        </article>
+
+                    </section>
+                </section>
+
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
